@@ -14,6 +14,11 @@
 
 
 /* common style is here............ */
+
+body {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -143,9 +148,13 @@ nav {
 }
 
 .item {
-    padding: 25px;
+    padding: 20px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
+}
+
+.item img {
+    width: 100%;
 }
 
 .item h2 {
@@ -175,5 +184,76 @@ nav {
     font-size: 15px;
     color: black;
 }
+
+.see_more a {
+    margin-top: 50px;
+    float: right;
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.featured_product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 160px;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.featured_product .featured_img img{
+    height: 100%;
+}
+
+.featured_product .featured_text .featured_title {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+}
+
+.featured_description {
+    margin: 20px 0;
+    line-height: 30px;
+    color: #6C6C6C;
+}
 /* main part style adding start from here........................ */
+
+
+/* footer section style adding start from here */
+footer {
+    margin-top: 70px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("./images/wave.svg");
+    background-color: #0A0826;
+    background-position: bottom center;
+    background-origin: border-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer_title {
+    font-size: 1.7rem;
+    margin: 15px 0;
+}
+
+.copyright_txt {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_icons {
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+/* footer section style adding start from here */
 
