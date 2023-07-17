@@ -18,8 +18,18 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
 }
+
+.primary_btn {
+    background-color: var(--button-color);
+    padding: 10px 30px;
+    border: none;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 100px;
+}
+
+
 /* common style is here............ */
 
 
@@ -34,18 +44,19 @@ nav {
     grid-template-columns: 15fr 1fr;
     align-items: center;
     gap: 20px;
+    padding: 60px 0px 10px;
 }
 
 .nav_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 0;
+    padding: 0;
 }
 
 .nav_container ul {
     display: flex;
-    gap: 30px;
+    gap: 33px;
 }
 
 .nav_container ul li {
@@ -69,6 +80,7 @@ nav {
     font-size: 25px;
     cursor: pointer;
     padding: 0;
+    color: #E02C6D;
 }
 
 .head_text {
@@ -76,6 +88,24 @@ nav {
     color: var(--primary-font-color);
 }
 
+.banner_container .banner_main_part {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position: bottom right;
+}
 
+.banner_text_part .banner_title {
+    font-size: 3rem;
+}
+
+.banner_text_part .banner_description {
+    font-weight: var(--bold-font);
+    margin: 10px 0 20px;
+}
 /* header styling start from here........... */
 
