@@ -358,6 +358,7 @@ main ~ i {
 
     .featured_product {
         flex-direction: column-reverse;
+        width: 100vw;
         gap: 50px;
     }
 
