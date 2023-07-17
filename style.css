@@ -59,6 +59,10 @@ nav {
     padding: 0;
 }
 
+.menu_icon {
+    display: none;
+}
+
 .nav_container ul {
     display: flex;
     gap: 33px;
@@ -253,7 +257,107 @@ footer {
     justify-content: center;
     gap: 25px;
 }
-
-
 /* footer section style adding start from here */
+
+
+/* responsive code for small device .......................... */
+@media screen and (max-width: 576px) {
+
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    header {
+        padding: 0px 25px;
+    }
+
+    nav {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 15fr 1fr;
+        gap: 5px;
+        padding: 0;
+    }
+
+    /* .nav_container {
+        flex-direction: row-reverse;
+    } */
+
+    ul li {
+        display: none;
+    }
+
+    .menu_icon {
+        font-size: 27px;
+        display: block;
+    }
+
+    .head_text {
+        font-size: 1rem;
+    }
+
+    .popular_collection_section,
+    .featured_product {
+        padding: 0px 25px;
+    }
+
+    .banner_container .banner_main_part {
+        margin-top: 30px;
+        flex-direction: column-reverse;
+        background-position: top center;
+        background-position-y: 10%;
+        background-size: 84%;
+    }
+
+
+    .banner_main_part .banner_img_part {
+        text-align: center;
+    }
+
+    .banner_main_part .banner_img_part img {
+        width: 80%;
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    .banner_main_part .banner_text_part .banner_title {
+        font-size: 2.4rem;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .banner_main_part .banner_text_part {
+        text-align: center;
+    }
+
+    .banner_container .banner_sponser_part {
+        padding: 20px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px 40px;
+    }
+
+    .banner_container .banner_sponser_part img{
+        width: 15%;
+    }
+
+    .popular_collection_section {
+        margin-top: 50px;
+    }
+
+    .items_container {
+        grid-template-columns: 1fr;
+    }
+
+    .featured_product {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+
+}
+/* responsive code for small device .......................... */
 
