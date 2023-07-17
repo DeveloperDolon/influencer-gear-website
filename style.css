@@ -370,3 +370,76 @@ main ~ i {
 }
 /* responsive code for small device .......................... */
 
+/* medium device responsive code starting from here */
+@media screen and (min-width: 577px) and (max-width: 900px) {
+    header {
+        padding: 60px;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    .nav_container {
+        flex-direction: column;
+    }
+
+    .head_text {
+        margin-bottom: 20px;
+    }
+
+    .banner_container .banner_main_part{
+        padding-top: 30px;
+        background-size: 52%;
+    }
+
+    .banner_main_part .banner_text_part .banner_title {
+        font-size: 1.7rem;
+    }
+
+    .banner_main_part .banner_text_part .banner_description {
+        font-size: .8rem;
+    }
+
+    .banner_container .banner_img_part img {
+        width: 100%;
+    }
+
+    .banner_container .banner_sponser_part img {
+        width: 10%;
+    }
+
+    .banner_container .banner_sponser_part {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 40px;
+        padding: 20px 0;
+    }
+
+    .popular_collection_section {
+        padding: 0px 50px;
+        margin-top: 20px;
+    }
+
+    .popular_collection_section .items_container {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .featured_product {
+        padding: 0px 50px;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .featured_product .featured_text {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .items_container .item h2 {
+        font-size: 4vw;
+    }
+}
+/* medium device responsive code ending from here */
+
