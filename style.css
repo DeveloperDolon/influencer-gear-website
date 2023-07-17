@@ -257,6 +257,10 @@ footer {
     justify-content: center;
     gap: 25px;
 }
+
+main ~ i {
+    display: none;
+}
 /* footer section style adding start from here */
 
 
